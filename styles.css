@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f2f6;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0073b1;
+  color: white;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+header .barra-de-busca input {
+  padding: 5px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+}
+
+header .menu a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.conteudo {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.painel-de-publicacoes, .painel-de-conteudo {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.painel-de-publicacoes .campo-publicacao textarea {
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.painel-de-publicacoes button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.painel-de-publicacoes button:hover {
+  background-color: #005f8a;
+}
+
+.publicacoes .publicacao {
+  padding: 10px;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.sugestoes .sugestao {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.sugestoes button {
+  padding: 5px 10px;
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
